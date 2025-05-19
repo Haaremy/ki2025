@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['PV', 'ST']
+
+roboflow:
+  workspace: ki2025
+  project: pvst_ki
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ki2025/pvst_ki/dataset/1
